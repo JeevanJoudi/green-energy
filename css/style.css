@@ -88,8 +88,9 @@ nav ul li a {
   line-height: 1.5;
 }
 #dynamic-content img {
-  max-width: 360px;
+  max-width: 370px;
   height: auto;
+  margin:auto;
   margin-bottom: 1em;
   border-radius: 4px;
 }
@@ -99,9 +100,13 @@ footer {
   display: flex;
   gap: 0.5rem;
   border-top: 1px solid black;
-
+  margin-top: 1rem;
   margin: 0.5rem;
 }
+.fa-brands {
+    font-size: 2rem;
+    
+  }
 
 @media only screen and (min-width: 30rem) {
   #logo {
@@ -166,6 +171,6 @@ footer {
   }
   .fa-brands {
     font-size: 2.5rem;
-    gap: 1rem;
+    
   }
 }
