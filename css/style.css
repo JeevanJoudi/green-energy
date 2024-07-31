@@ -1,193 +1,171 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
 
 *,
 body {
-    padding: 0;
-    margin: 0;
-    font-family: "Lato", sans-serif;
+  padding: 0;
+  margin: 0;
+  font-family: "Lato", sans-serif;
 }
 
-
-
 #logo {
-    text-transform: uppercase;
-    font-size: 21px;
-    font-weight: bold;
-    color: rgb(33, 112, 1);
-   
-    text-decoration: none;
+  text-transform: uppercase;
+  font-size: 21px;
+  font-weight: bold;
+  color: rgb(33, 112, 1);
+
+  text-decoration: none;
 }
 
 nav {
-    padding: 1em;
-    border-bottom: 1px solid black;
-    margin-bottom: 0.5em;
+  padding: 1em;
+  border-bottom: 1px solid black;
+  margin-bottom: 0.5em;
 }
 
 nav ul {
-    padding: 0;
+  padding: 0;
 }
 
 nav ul li {
-    list-style: none;
-    font-weight: bold;
-    margin-top: 0.5em;
-    padding:1em;
-    cursor: pointer;
-    
+  list-style: none;
+  font-weight: bold;
+  margin-top: 0.5em;
+  padding: 1em;
+  cursor: pointer;
 }
 
-nav ul li:hover{
-    background-color: green;
-    transition: 0.4s ease-in-out;
+nav ul li:hover {
+  background-color: green;
+  transition: 0.4s ease-in-out;
 }
-nav ul li a{
-    font-size: 1rem;
+nav ul li a {
+  font-size: 1rem;
 }
-
 
 .masthead {
-
-    position: relative;
-    background-image: url("../img/masthead.webp");
-    background-size: cover;
-    height: 30vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    overflow: hidden;
-    width: auto;
-   
-   
+  position: relative;
+  background-image: url("../img/masthead.webp");
+  background-size: cover;
+  height: 30vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  width: auto;
 }
 
 .masthead h1 {
-    font-family: "Lato", sans-serif;
-    font-weight: bold;
-    font-size: 1rem;
-    color: rgb(80, 120, 39);
-    background-color: antiquewhite;
-   padding:0.2em;
+  font-family: "Lato", sans-serif;
+  font-weight: bold;
+  font-size: 1rem;
+  color: rgb(80, 120, 39);
+  background-color: antiquewhite;
+  padding: 0.2em;
 }
-#controls{
-    display:flex;
-    margin:1em;
-    
+#controls {
+  display: flex;
+  margin: 0.5em;
 }
-#controls button{
-    margin-right:1em;
-    border:solid black 1px;
-    padding:0.5em;
-    border-radius: 4px;
-    cursor: pointer;
-    font-size:0.5rem;
-    font-weight: bold;
-    text-transform: uppercase;
-    
-   
-    
-    
+#controls button {
+  margin-right: 1em;
+  border: solid black 1px;
+  padding: 0.5em;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.5rem;
+  font-weight: bold;
+  text-transform: uppercase;
 }
 .active {
-    background-color: #007bff;
-    color: white;
+  background-color: #007bff;
+  color: white;
 }
 
 #dynamic-content {
-    display: block;
-    margin: 1em;
-    font-size: 0.5rem;
-    line-height: 1.5;
-    
+  display: block;
+  margin: 1em;
+  font-size: 0.5rem;
+  line-height: 1.5;
 }
 #dynamic-content img {
-    
-    max-width: 480px;
-    height: 300px;
-    margin-bottom:1em;
-    border-radius: 4px;
+  max-width: 480px;
+  height: 300px;
+  margin-bottom: 1em;
+  border-radius: 4px;
 }
-
 
 footer {
-    display: flex;
-    
-    border-top: 1px solid black;
-    
+  clear: both;
+  display: flex;
+  gap: 0.5rem;
+  border-top: 1px solid black;
+
+  margin: 0.5rem;
 }
 
-footer a {
-    text-decoration: underline;
-    color: black;
-    margin-left: 1em;
-    margin-top: 1.5em;
-    margin-bottom:1em;
-    font-size: 0.5rem;
-    font-family: "Lato", sans-serif;
-}
 @media only screen and (min-width: 30rem) {
-    #logo {
-        font-size: 36px;
-    }
+  #logo {
+    font-size: 36px;
+  }
 
-    nav {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: center;
-        margin-bottom: 1em;
-    }
+  nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1em;
+  }
 
-    nav ul {
-        display: flex;
-    }
+  nav ul {
+    display: flex;
+  }
 
-    nav ul li a{
-        font-size: 1.5rem;
-    }
+  nav ul li a {
+    font-size: 1.5rem;
+  }
 
-    body {
-        max-width: 60rem;
-        margin: auto;
-    }
+  body {
+    max-width: 60rem;
+    margin: auto;
+  }
 
-    .masthead h1 {
-        font-size: 1.5rem;
-        font-weight: bold;
+  .masthead h1 {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
 
-    }
+  #controls {
+    justify-content: left;
+  }
+  #controls button {
+    font-size: 1rem;
+  }
+  #dynamic-content h2 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
 
-    #controls{
-        justify-content: left;
-        
-    }
-    #controls button{
-        font-size: 1rem;
-    }
-    #dynamic-content h2 {
-        font-size: 1.5rem;
-    }
+  #dynamic-content img {
+    float: left;
+    margin-right: 1em;
+    max-width: 15rem;
+    margin-bottom: 1em;
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  #dynamic-content p {
+    gap: 2em;
+    margin-bottom: 0.5rem;
+    margin-left: 0.5em !important;
+    font-size: 1rem;
+  }
 
-    #dynamic-content img {
-        float: left;
-        margin-right:1em;
-        max-width: 15rem; 
-        
-        width: 100%;
-        height: auto;
-        border-radius: 8px;
-    }
-    #dynamic-content p{
-        gap:1em;
-        margin-left:0.5em !important;
-        font-size: 1rem;
-    }
-    footer {
-        clear: both;
-        
-    }
-    footer a{
-        font-size: 1rem;
-        
-    }
+  footer i {
+    gap: 1rem;
+  }
+  .fa-brands {
+    font-size: 2.5rem;
+    gap: 1rem;
+  }
 }
